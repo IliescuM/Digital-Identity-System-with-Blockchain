@@ -1,0 +1,97 @@
+.fade {
+    opacity: 1
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.btn-home{
+    padding: 1vw 1vw;
+    margin: 0.5vw 0.5vw;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    width: 10vw;
+}
+
+.footer2 {
+    font-size: 1em;
+    text-align: center;
+    align-items: center;
+    background-color: none;
+    color: black;
+    opacity: 0.6;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 7vw;
+}
+
+.container {
+    margin: 20px;
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 100vh;
+
+
+}
+
+.dashboard {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+
+}
+
+.chart-container {
+    border: 5px solid grey;
+    width: 50%;
+    height: 65%;
+    background-color: whitesmoke;
+}
+
+.chart-div {
+        position: relative;
+        /* top: 17vw; */
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+        margin: auto;
+}
